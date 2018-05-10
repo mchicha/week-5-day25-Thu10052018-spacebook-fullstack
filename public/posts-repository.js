@@ -1,6 +1,9 @@
     /**
-     * @class Responsible for storing and manipulating Spacebook posts, in-memory
+     * @class   Responsible for storing and manipulating Spacebook posts,
+     *          and provides methods to add and delete posts and comments 
+     *          in-memory
      */
+    
 class PostsRepository {
     constructor() {
         this.posts = [];

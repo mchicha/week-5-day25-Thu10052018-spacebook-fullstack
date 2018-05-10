@@ -1,6 +1,9 @@
     /**
-     * @class Responsible for rendering posts and comments in the HTML
+     * @class   this class is responsible for rendering data(posts and comments)
+     *          in the UI(HTML) using jQuery.
+     *          It exposes two methods: renderPosts and renderComments
      */
+    
 class PostsRenderer {
     constructor() {
         this.$posts = $(".posts");

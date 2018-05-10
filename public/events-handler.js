@@ -1,3 +1,10 @@
+/**
+  * @class   this class is responsible for subscribing to events
+  *          (clicking the add/remove buttons, toggle comments, etc.)
+  *          and handling them by calling the appropriate methods in posts-repository
+  *          and posts-renderer
+  */
+
 class EventsHandler {
     constructor(postsRepository, postsRenderer) {
         this.postsRepository = postsRepository;
